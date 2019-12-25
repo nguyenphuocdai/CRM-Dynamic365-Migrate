@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\TTC\\CRM\\CRM.csproj": {}
+  },
+  "projects": {
+    "D:\\TTC\\CRM\\CRM.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TTC\\CRM\\CRM.csproj",
+        "projectName": "CRM",
+        "projectPath": "D:\\TTC\\CRM\\CRM.csproj",
+        "packagesPath": "C:\\Users\\dainp\\.nuget\\packages\\",
+        "outputPath": "D:\\TTC\\CRM\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dainp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "IKVM": {
+              "target": "Package",
+              "version": "[8.1.5717, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.2, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "Microsoft.IdentityModel.Clients.ActiveDirectory": {
+              "target": "Package",
+              "version": "[5.2.3, )"
+            },
+            "Microsoft.Toolkit.Wpf.UI.Controls.WebView": {
+              "target": "Package",
+              "version": "[6.0.0-preview9.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "System.DirectoryServices": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "System.DirectoryServices.Protocols": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "imports": [
+            "uap10.0.18362",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
